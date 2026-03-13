@@ -92,5 +92,10 @@
   // print('The divide of two number is $divide');
   // print('The rounded divide of two number is $roundDivide');
   // print(multiple > addtion);
+  // int one = 50;
+  // int two = 25;
+  // int three = 15;
+  // print(one > 100 && one == two && two > one);
+  // print(!(one > 100 || one == two || two > one));
 void main(){
 }
