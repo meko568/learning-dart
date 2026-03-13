@@ -97,5 +97,13 @@
   // int three = 15;
   // print(one > 100 && one == two && two > one);
   // print(!(one > 100 || one == two || two > one));
+//   int long = 15;
+//   int width = 30;
+//   int result = long * width;
+//   print(result);
+//   int age = 16;
+//  bool haspaper = true;
+//  bool ispaperactive = true;
+//  print(age > 18 && haspaper && ispaperactive);
 void main(){
 }
