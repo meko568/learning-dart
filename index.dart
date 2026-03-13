@@ -105,8 +105,21 @@
 //  bool hascard = true;
 //  bool iscardactive = true;
 //  print(age > 18 && hascard && iscardactive);
+  // int x = 2;
+  // bool result = x % 2 == 0;
+  // print(result == 1);
 void main(){
-  int x = 2;
-  bool result = x % 2 == 0;
-  print(result == 1);
+  int b = 50;
+  int a = b;
+  a += b;
+  print(a);
+  a *= b;
+  print(a);
+  a ~/= b;
+  print(a);
+  a %= b;
+  print(a);
+  a -= b;
+  print(a);
+  print(a == b);
 }
