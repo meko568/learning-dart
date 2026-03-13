@@ -108,18 +108,21 @@
   // int x = 2;
   // bool result = x % 2 == 0;
   // print(result == 1);
+  // int b = 50;
+  // int a = b;
+  // a += b;
+  // print(a);
+  // a *= b;
+  // print(a);
+  // a ~/= b;
+  // print(a);
+  // a %= b;
+  // print(a);
+  // a -= b;
+  // print(a);
+  // print(a == b);
 void main(){
-  int b = 50;
-  int a = b;
-  a += b;
-  print(a);
-  a *= b;
-  print(a);
-  a ~/= b;
-  print(a);
-  a %= b;
-  print(a);
-  a -= b;
-  print(a);
-  print(a == b);
+  Map students = {'mohammed':95,'mena':55,'hana':70};
+  String result = students['hana'] > 75 ? 'verygood' : 'good';
+  print(result);
 }
