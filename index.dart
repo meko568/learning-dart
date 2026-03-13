@@ -108,5 +108,5 @@
 void main(){
   int x = 2;
   bool result = x % 2 == 0;
-  print(result);
+  print(result == 1);
 }
