@@ -102,8 +102,9 @@
 //   int result = long * width;
 //   print(result);
 //   int age = 16;
-//  bool haspaper = true;
-//  bool ispaperactive = true;
-//  print(age > 18 && haspaper && ispaperactive);
+//  bool hascard = true;
+//  bool iscardactive = true;
+//  print(age > 18 && hascard && iscardactive);
 void main(){
+  print("f");
 }
