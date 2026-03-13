@@ -77,20 +77,20 @@
   // print(names[1]);
   // Map user = {'name':names[1],'job':'student','age':16};
   // print(user['age']);
+  // int one = 20;
+  // int two = 45;
+  // int addtion = one + two;
+  // int multiple = one * two;
+  // int modoul = two % one;
+  // int substracting = two - one;
+  // double divide = two / one;
+  // int roundDivide = two ~/ one;
+  // print('The addtion of two number is $addtion');
+  // print('The multipling of two number is $multiple');
+  // print('The reminder of two number is $modoul');
+  // print('The substracting of two number is $substracting');
+  // print('The divide of two number is $divide');
+  // print('The rounded divide of two number is $roundDivide');
+  // print(multiple > addtion);
 void main(){
-  int one = 20;
-  int two = 45;
-  int addtion = one + two;
-  int multiple = one * two;
-  int modoul = two % one;
-  int substracting = two - one;
-  double divide = two / one;
-  int roundDivide = two ~/ one;
-  print('The addtion of two number is $addtion');
-  print('The multipling of two number is $multiple');
-  print('The reminder of two number is $modoul');
-  print('The substracting of two number is $substracting');
-  print('The divide of two number is $divide');
-  print('The rounded divide of two number is $roundDivide');
-  print(multiple > addtion);
 }
