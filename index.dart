@@ -121,8 +121,8 @@
   // a -= b;
   // print(a);
   // print(a == b);
+  // Map students = {'mohammed':95,'mena':55,'hana':70};
+  // String result = students['hana'] > 75 ? 'verygood' : 'good';
+  // print(result);
 void main(){
-  Map students = {'mohammed':95,'mena':55,'hana':70};
-  String result = students['hana'] > 75 ? 'verygood' : 'good';
-  print(result);
 }
