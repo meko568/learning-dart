@@ -124,5 +124,157 @@
   // Map students = {'mohammed':95,'mena':55,'hana':70};
   // String result = students['hana'] > 75 ? 'verygood' : 'good';
   // print(result);
+  // int x = 15;
+  // int y = 20;
+  // if(x > y){
+  //   print("x is more than y");
+  // }else if(x == y){
+  //   print("x equal y");
+  // }else{
+  //   print("y is more than x");
+  // }
+  // int x = -1;
+  // if(x % 2 == 0 && x > 0){
+  //   print("x is even");
+  // }else if(x % 2 != 0 && x > 0){
+  //   print("x is odd");
+  // }else if(x == 0){
+  //   print("x equals 0");
+  // }else{
+  //   print("x is negative");
+  // }
+  // int x = 70;
+  // if(x >= 90){
+  //   print("A");
+  // }else if(x >= 80){
+  //   print("B");
+  // }else if(x >= 70){
+  //   print("C");
+  // }else{
+  //   print("F");
+  // }
+  // int x = 20;
+  // int y = 30;
+  // int z = 40;
+  // if(x > y && x > z){
+  //   print("x is the biggest");
+  // }else if(y > x && y > z){
+  //   print("y is the biggest");
+  // }else if(z > x && z >y){
+  //   print("z is the biggest");
+  // }else{
+  //   print("there is at least two numbers equals");
+  // }
+  // int one = 10;
+  // int two = 20;
+  // String operation = "+";
+  // if(operation != "/" && two != 0){
+  //   if(operation == "+"){
+  //     print(one + two);
+  //   }else if(operation == "*"){
+  //     print(one * two);
+  //   }else if(operation == "-"){
+  //     print(one - two);
+  //   }else if(operation == "/"){
+  //     print(one / two);
+  //   }else{
+  //     print("Erorr");
+  //   }
+  // }
+  // int x = 1;
+  // switch(x){
+  //   case 1:
+  //   print("saturday");
+  //   break;
+  //   case 2:
+  //   print("sunday");
+  //   break;
+  //   case 3:
+  //   print("monday");
+  //   break;
+  //   case 4:
+  //   print("tuesday");
+  //   break;
+  //   case 5:
+  //   print("wedensday");
+  //   break;
+  //   case 6:
+  //   print("thrusday");
+  //   break;
+  //   case 7:
+  //   print("friday");
+  //   break;
+  //   default:
+  //   print("wrong number");
+  //   break;
+  // }
+  // int x = 20;
+  // int y = 30;
+  // int z = 10;
+  // if(x == y && y == z){
+  //   print("متساوي الاضلاع");
+  // }else if((x == y && y != z) || (x != y && y == z) || (x == z && y != z)){
+  //   print("متساوي الساقين");
+  // }else{
+  //   print("مختلف");
+  // }
+  // String country="USA";
+  // String city="alska";
+  // switch(country){
+  //   case "Egypt":
+  //     switch(city){
+  //       case "Alex":
+  //       print("Alex");
+  //       break;
+  //       case "damanhour":print("damanhour");
+  //       break;
+  //       default:print("noo");
+  //       }
+  //   break;
+  //   case "USA":
+  //     switch(city){
+  //       case "alska":
+  //       print("alska");
+  //     }
+  // }
+//   String user = "admin";
+//   String page = "settings";
+//   if(user == "guest"){
+//     if(page == "home"){
+//       print("allow");
+//     }else{
+//       print("prevent");
+//     }
+//   }else if(user == "user"){
+//     if(page == "home" || page == "dashboard"){
+//       print("allow");
+//     }else{
+//       print("prevent");
+//     }
+//   }else if(user == "admin"){
+//     if(page == "home" || page == "dashboard" || page == "settings"){
+//       print("allow");
+//     }else{
+//       print("prevent");
+//     }
+// }
+  // Map student = {"mohammed":[40,80,75],"khaled":[70,80,75],"ahmed":[70,80,75]};
+  // student.forEach((key, e) {  
+  //   dynamic result = 0;
+  //   bool x = true;
+  //   for(int i = 0; i < e.length; i++){
+  //     if(e[i] < 50){
+  //       print("$key is failed");
+  //       x = false;
+  //       break;
+  //     }else{
+  //       result += e[i];
+  //     }
+  //   }
+  //   if(x){
+  //   dynamic average = result / 3;
+  //   print("$key average is $average");
+  //   }
+  //  });
 void main(){
 }
