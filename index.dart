@@ -277,4 +277,16 @@
   //   }
   //  });
 void main(){
+  int price = 7000;
+  String user = "VIP";
+  int discount = 0;
+  if(user == "VIP"){
+    discount += 5;
+  }
+  if(price > 1000){
+    discount += 20;
+  }else if(price > 500){
+    discount += 10;
+  }
+  print(price - (price * discount / 100));
 }
