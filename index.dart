@@ -289,4 +289,17 @@
   // }
   // print(price - (price * discount / 100));
 void main(){
+  double salary = 5500;
+  int workhour = 45;
+  int latetimes = 3;
+  if(workhour > 40){
+    salary += (workhour - 40) * 50;
+  }
+  if(latetimes > 3){
+    salary -= 200;
+  }
+  if(salary > 6000){
+    salary += salary * .1;
+  }
+  print(salary);
 }
