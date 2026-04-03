@@ -346,10 +346,47 @@
   //           print(e);
   //         }
   //  });
+  // int x = 10;
+  // while(x >= 0){
+  //   if(x % 2 == 0){
+  //     print(x);
+  //   }
+  //   x--;
+  // }
+  // int i = 0;
+  // do{
+  //   if(i % 2 == 0){
+  //     print(i);
+  //   }
+  //   i++;
+  // }while(i <= 10);
+  // List<String> names = ["Omar","Sava","Taia", "Mohammed"];
+  // names.forEach((e) {
+  //   if(e.contains("S") || e.contains("s")){
+  //     print(e);
+  //   }
+  // });
+  // names.forEach((e) { 
+  //   if(e.length > 4){
+  //     print(e);
+  //   }
+  // });
+  // List<String> names = ["Omar","Sava","Taia", "Mohammed"];
+  // String longest = "";
+  // for(String name in names){
+  //   if(name.contains("S")){
+  //     print(name);
+  //   }
+  //   if(name.length > longest.length){
+  //     longest = name;
+  //   }
+  // }
+  // print(longest);
+  // List<int> grades = [30, 60, 40, 90];
+  // for(int i = 0;i< grades.length;i++){
+  //   if(grades[i] > 50){
+  //     print(grades[i]);
+  //   }
+  // }
 void main(){
-  int i = 1;
-  while(i <= 10){
-    print(i);
-    i++;
-  }
 }
