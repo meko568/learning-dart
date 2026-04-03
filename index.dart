@@ -311,12 +311,45 @@
   //     }
   //   });
   // }
+  // for(int i = 1; i < 100; i += 2){
+  //   if(i == 51){
+  //     print("number = 51");
+  //   }else{
+  //   print(i);
+  //   }
+  // }
+  // List<int> numbers = [1,2,3,4];
+  // int result = 0;
+  // for(int i = 0; i < numbers.length; i++){
+  //   result += numbers[i];
+  // }
+  // print(result);
+  // List<int> data = [1,3,5,7];
+  // for(int i = 0; i < data.length; i++){
+  //   if(data[i] == 3){
+  //     print("Number = 3");
+  //   }else{
+  //     print(data[i]);
+  //   }
+  // }
+  // for(int number in data){
+  //   if(number == 3){
+  //     print("Number = 3");
+  //   }else{
+  //     print(number);
+  //   }
+  // }
+  // data.forEach((e) {
+  //     if(e == 3){
+  //           print("Number = 3");
+  //         }else{
+  //           print(e);
+  //         }
+  //  });
 void main(){
-  for(int i = 1; i < 100; i += 2){
-    if(i == 51){
-      print("number is 51");
-      continue;
-    }
+  int i = 1;
+  while(i <= 10){
     print(i);
+    i++;
   }
 }
