@@ -288,18 +288,35 @@
   //   discount += 10;
   // }
   // print(price - (price * discount / 100));
+  // double salary = 5500;
+  // int workhour = 45;
+  // int latetimes = 3;
+  // if(workhour > 40){
+  //   salary += (workhour - 40) * 50;
+  // }
+  // if(latetimes > 3){
+  //   salary -= 200;
+  // }
+  // if(salary > 6000){
+  //   salary += salary * .1;
+  // }
+  // print(salary);
+  // Map IDs = {"ahmed":1,"mohammed":2,"omar":3};
+  // if(IDs["omar"] == 2){
+  //   print("omar");
+  // }else{
+  //   IDs.forEach((key, value) {
+  //     if(value == 2){
+  //       print(key);
+  //     }
+  //   });
+  // }
 void main(){
-  double salary = 5500;
-  int workhour = 45;
-  int latetimes = 3;
-  if(workhour > 40){
-    salary += (workhour - 40) * 50;
+  for(int i = 1; i < 100; i += 2){
+    if(i == 51){
+      print("number is 51");
+      continue;
+    }
+    print(i);
   }
-  if(latetimes > 3){
-    salary -= 200;
-  }
-  if(salary > 6000){
-    salary += salary * .1;
-  }
-  print(salary);
 }
